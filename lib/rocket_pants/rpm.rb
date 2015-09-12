@@ -24,7 +24,6 @@ module RocketPants
       executes do
         class RocketPants::Base
           include NewRelic::Agent::Instrumentation::ControllerInstrumentation
-          include NewRelic::Agent::Instrumentation::Rails3::ActionController
         end
       end
     end
